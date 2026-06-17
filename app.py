@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Leer datos de csv
-car_data = pd.read_csv('vehicles_us.csv')
+car_data = pd.read_csv('notebooks/vehicles_us.csv')
 
 # Crear encabezado y texto de ayuda
 st.header("Relación de datos de carros")
